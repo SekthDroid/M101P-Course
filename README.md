@@ -8,8 +8,7 @@
 <ul>
     <li>hello_bottle.py
         <p>A sample file to start running the Bottle framework <br/>
-
-        <code>python hello_bottle.py</b>
+            <code>python hello_bottle.py</code>
         </p>
     </li>
     <li>hello_bottle.py
