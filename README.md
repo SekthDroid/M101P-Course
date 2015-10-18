@@ -32,4 +32,7 @@
             <code>SekthDroid-Mac:week1 SekthDroid$ python hello_app.py</code>
         </p>
     </li>
+    <li>bottle_url_handler.py
+      <p>A file used to setup some handlers for the urls, as we can see, there are 2 defined urls, one for the root web, which will pring <code>Hello World</code> and another one that will be executed when we access to the url http://localhost:8080/test_page and we will see the text <code>This is a test page</code></p>
+    </li>
 </ul>
