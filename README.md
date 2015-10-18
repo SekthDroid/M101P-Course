@@ -39,4 +39,7 @@
       <p>A file used to setup templates with bottle framework, and pass it some values that will be rendered with the template processor.
       The content of the template is located in /week1/hello_world.tpl.</p>
     </li>
+    <li>hello_bottle_things_2.py
+      <p>This is a file that will get the data from a form request, and will render another template with the data the user wrote in the form</p>
+    </li>
 </ul>
