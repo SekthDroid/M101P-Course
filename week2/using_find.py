@@ -53,6 +53,18 @@ def find_with_projection():
     except Exception as e:
         print_error(e)
 
+
+def find_with_gt_and_lt():
+    print("Find method with Greater than and Lower Than")
+    query = {"type": "quiz", "score": {"$gt": 20, "$lt": 90}}
+
+    try:
+        cursor = scores.find(query)
+        print_items_with_limit(cursor, 10)
+    except Exception as e:
+        print_error(e)
+
 find_one()
 find()
 find_with_projection()
+find_with_gt_and_lt()
