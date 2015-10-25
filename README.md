@@ -51,4 +51,10 @@
     <br/>
     This will fill a db called school with 300 dummy data.</p>
 <br/>
-
+<ul>
+    <li>using_find.py
+        <p>This is a simple file that will execute a query to fetch only one element based in a query, then it will be printed.<br/>
+            <code>python using_find.py</code>
+        </p>
+    </li>
+</ul>
