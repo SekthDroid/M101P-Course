@@ -43,3 +43,12 @@
       <p>This is a file that will get the data from a form request, and will render another template with the data the user wrote in the form</p>
     </li>
 </ul>
+<h3>Week 2</h3>
+<p>In order to be able to work with the exercises, we will need to run the file within the folder <b>seeder</b>, which is a common js file that will seed a database
+    with some dummy data. Just execute it in a shell like this: <br/><br/>
+    <code>SekthDroid-Mac:Week2 SekthDroid$ mongo < create_student_collection.js</code>
+    <br/>
+    <br/>
+    This will fill a db called school with 300 dummy data.</p>
+<br/>
+
