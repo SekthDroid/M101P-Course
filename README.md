@@ -62,4 +62,9 @@
             <code>python find_with_regex.py</code><br/>
         </p>
     </li>
+    <li>find_sort_skip_limit.py
+        <p>This is a file that uses the Sort, Skip and Limit features in the find method of Pymongo. It works with the school database (The one we created with the create_student seeder)<br/>
+            <code>python find_sort_skip_limit.py</code><br/>
+        </p>
+    </li>
 </ul>
