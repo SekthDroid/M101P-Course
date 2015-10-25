@@ -31,11 +31,28 @@ def find():
         docs = scores.find(query)
 
         # Only printing 10 results
-        for item in docs[:10]:
-            print(item)
+        print_items_with_limit(docs, 10)
     except Exception as e:
         print_error(e)
 
 
+def print_items_with_limit(docs, limit):
+    for item in docs[:limit]:
+        print(item)
+
+
+def find_with_projection():
+    print("Find method with projection")
+    query = {"student_id": 1}
+    projection = {"student_id": 1, "score": 1, "_id": 0}
+
+    try:
+        docs = scores.find(query, projection)
+
+        print_items_with_limit(docs, 10)
+    except Exception as e:
+        print_error(e)
+
 find_one()
 find()
+find_with_projection()
