@@ -53,8 +53,13 @@
 <br/>
 <ul>
     <li>using_find.py
-        <p>This is a simple file that will execute a query to fetch only one element based in a query, then it will be printed.<br/>
+        <p>This is a simple file that will execute a different kinds of queries to the database and then it will be printed.<br/>
             <code>python using_find.py</code>
+        </p>
+    </li>
+    <li>find_with_regex.py
+        <p>This is a file that uses a regex expression to return results from our reddit database that we have imported using the seeder (located at seeder/reddit_seeder.py)<br/>
+            <code>python find_with_regex.py</code><br/>
         </p>
     </li>
 </ul>
