@@ -89,4 +89,9 @@
             <code>python update_using_replace.py</code>
         </p>
     </li>
+    <li>using_upsert.py
+        <p>This file show the use of the <code>upsert</code> flag when using <code>update_one</code>, <code>update_many</code> and <code>replace_one</code>, and some use case where it can fails<br/>
+            <code>python using_upsert.py</code>
+        </p>
+    </li>
 </ul>
