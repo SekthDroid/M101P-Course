@@ -99,4 +99,9 @@
             <code>python using_delete.py</code>
         </p>
     </li>
+    <li>using_find_and_modify.py
+        <p>This file contains a sample of the <code>find_one_and_update</code> function of the Pymongo driver. With this we can retrieve the value that are being updated before or after the execution, so we can do things with it<br/>
+            <code>python using_find_and_modify.py</code>
+        </p>
+    </li>
 </ul>
