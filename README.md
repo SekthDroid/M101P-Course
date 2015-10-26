@@ -94,4 +94,9 @@
             <code>python using_upsert.py</code>
         </p>
     </li>
+    <li>using_delete.py
+        <p>This file contains the basic usage of the <code>delete_one</code> and <code>delete_many</code> functions. As we can see, if we use <code>delete_one</code> it will delete only one element, so we can see that there are still 2 more elements for a student, but if we call <code>delete_many</code> we can see how all the rest of the elements are deleted<br/>
+            <code>python using_delete.py</code>
+        </p>
+    </li>
 </ul>
