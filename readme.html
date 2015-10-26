@@ -84,4 +84,9 @@
             <code>python using_update.py</code><br/>
         </p>
     </li>
+    <li>update_using_replace.py
+        <p>This file shows the use of the <code>replace_one()</code> function of PyMongo, where first we will clear all the <code>review_date</code> values for all the rows, and then we will find a student, add a review date, and replace the entire student with the new value. Then we will find it again and printing the result to see what has changed.<br/>
+            <code>python update_using_replace.py</code>
+        </p>
+    </li>
 </ul>
