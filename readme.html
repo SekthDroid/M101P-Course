@@ -70,13 +70,18 @@
     <li>using_insert_one.py
         <p>This is a file that will insert 2 persons in the collection "people" of the database "school". Due to one of them have an <code>"_id"</code>, if you run this script more than one time, the one who hasn't got the <code>"_id"</code> will be persisted again, the the other one containing this key will throw an exception. It's an example on how the <code>insert_one</code> works, and how the Mongo id generation runs.<br/>
             <code>python using_insert_one.py </code><br/>
-            <code>python using_insert_one.py </code> (Will throw an error inserting the second one<br/>
+            <code>python using_insert_one.py </code> (Will throw an error inserting the second one
         <p>
     </li>
     <li>using_insert_many.py
         <p>This is a file that will show the behaviour of the <code>insert_many</code> function of the Pymongo driver. As you can see in the sample, one of the items to insert contains a key called <code>"_id"</code>. As we saw in the previous sample, this item will not be persisted again, and will throw an Error. But if we see, we can send a boolean that will perform the bulk insert in order if is <code>True</code>, or not in order if is <code>False</code>, so if we execute the program with the boolean set to <code>True</code>, it will insert Android multiple times, and the error will be thrown at the second element, so the rest of the items will be not persisted, even if some item doesn't have any <code>"_id"</code> key. By other hand, if we run this with the flag set to <code>False</code>, it will insert the elements until it's the turn of the item with the <code>"_id"</code> key, where the error will be thrown.<br/>
             <code>python using_insert_many.py</code> (Errors will be thrown when the second <code>insert_many</code> is called, but some elements could be possible inserted, due to the <code>False</code> flag.)<br/>
             <code>python using_insert_many.py</code> (Android will be inserted in the first <code>insert_many</code> always, but not iOS or Windows)<br/>
+        </p>
+    </li>
+    <li>using_update_many.py
+        <p>This file contains some logic about the <code>update_one</code> and <code>update_many</code> functions of PyMongo. We will see how we can update just one document, or update all. We make use of the <code>$set</code> to set a value in the document we want (or all if we use <code>find_all</code><br/>
+            <code>python using_update.py</code><br/>
         </p>
     </li>
 </ul>
