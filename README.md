@@ -67,4 +67,10 @@
             <code>python find_sort_skip_limit.py</code><br/>
         </p>
     </li>
+    <li>using_insert_one.py
+        <p>This is a file that will insert 2 persons in the collection "people" of the database "school". Due to one of them have an <code>"_id"</code>, if you run this script more than one time, the one who hasn't got the <code>"_id"</code> will be persisted again, the the other one containing this key will throw an exception. It's an example on how the <code>insert_one</code> works, and how the Mongo id generation runs.<br/>
+            <code>python using_insert_one.py </code><br/>
+            <code>python using_insert_one.py </code> (Will throw an error inserting the second one<br/>
+        <p>
+    </li>
 </ul>
